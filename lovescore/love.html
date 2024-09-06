@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Tester</title>
+    <link rel="stylesheet" href="love.css">
+</head>
+<body>
+    <div id="homePage" class="container">
+        <h1>Love Tester</h1>
+        <div class="input-group">
+            <input type="text" id="name-input" placeholder="Enter your name" />
+            <input type="text" id="crush-input" placeholder="Enter your crush's name" />
+        </div>
+        <button id="testButton">Test Your Love</button>
+        <div class="bored"></div>
+    </div>
+
+    <div id="resultPage" class="container hidden">
+        <h1>Your Love Score</h1>
+        <div id="resultMessage"></div>
+        <a href="#" id="backButton" class="back-button">Test Again</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="love.js"></script>
+</body>
+</html>
